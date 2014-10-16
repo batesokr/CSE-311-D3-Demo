@@ -18,7 +18,7 @@ $.get("get_csv.php", function(csv_file) {
 	},
 	complete: function(results) {
 	    create_sidebar();
-	    create_bar_chart('.chart', histogram[columns[2]]);
+	    create_bar_chart('.chart', histogram[columns[0]]);
 	}
     });
 });

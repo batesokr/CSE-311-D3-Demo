@@ -1,7 +1,0 @@
-		CSE 311 D3 Demo
-
-This project was created to demonstrate the power of using D3 along with
-bootstrap and papa parse in analyzing and visualizing data. The data used
-was the Current Applications CSV file provided by Miami Universities' EA 
-architects. The website provides a histogram of a subset of columns along
-with a sidebar for column selection. 
