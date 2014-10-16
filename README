@@ -1,0 +1,30 @@
+		CSE 311 D3 Demo
+
+What is it?
+------------
+
+This project was created to demonstrate the power of using D3 for analyzing 
+and visualizing data. The data analyzed was the Current Applications CSV 
+file provided by Miami Universities' EA architects. The website provides 
+a histogram of a subset of columns along with a sidebar for column selection. 
+The subset of columns were chosen by manually analyzing the CSV file and 
+selecting which columns would be good candidates for histograms. Certain 
+columns, such as the name or the description, were omitted. 
+
+
+How does it work?
+-----------------
+The project is a combination of various JavaScript libraries. JQuery is 
+used to send an HTTP request to the server so the CSV file can be available 
+locally. It is also used for querying DOM elements as well as setting up
+event listeners. Papa Parse is used for parsing the CSV file line-by-line,
+allowing the sequential buildup of multiple histograms. Bootstrap is used
+for the creation of the header as well as the sidebar for a more visually
+appealing experience on viewing the histograms. D3 is used to construct
+the bar graphs of the histograms. 
+
+
+Contacts
+--------
+I can be contacted at batesokr@miamioh.edu for any questions you
+may have. 
