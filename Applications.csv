@@ -1,0 +1,531 @@
+Name,Type,Description/Purpose,Owner/Category,EA Comments,Functional Contact,SME(s),Servers,DBMS,Programming Language,Vendor Name/Contact
+Admission Application Data Entry,Sub-system,,Admission,,jen.herman@muohio.edu,,,,,
+Student Deductions,,"Allows students to identify deductions from their bill, when they haven't been applied in Banner yet",Bursar,,cassankl@muohio.edu,kandasm,,oracle,ColdFusion,In House
+ConfigMgr,,"Library/Framework used to store configurations, text strings, etc. for applications developed by EIS and others",EIS,,,"kidddw, covertka",www.admin.muohio.edu,Oracle,PHP,In house
+Cashnet (Informed Decisions),Business Application,Online credit card payment system for university,Finance,,cassankl@muohio.edu,holbrobc,,Oracle,cre,CASHNet
+SciQuest (Miami Buyway),Business Application,,Finance,,shawvewg@muohio.edu,gopalsk,,,,
+TMS,Business Application,Tuition Management Systems - Bursar,Finance,,cassankl@muohio.edu,"holbrobc, kandasm",,,,
+Banner Finance,Sub-system,,Finance,,,gopalsk,,,,
+Banner Finance Self Service,Sub-system,,Finance,,,gopalsk,,,,
+eProcurement (Sciquest to Banner interface),,,Finance,,shawvewg@muohio.edu,gopalsk,,Oracle,,Sungard
+Equitrac,,,Finance,,,,,,,
+Financial reports E-mailing,,,Finance,,keaslirj@muohio.edu,gopalsk,,,,
+Intellicheck -duplicate-Charged under e-visions,,Part of eVisions - prints checks and advices for payroll and accounts payable.,Finance,,,"gopalsk, magimap1","ADMWEVNT01,ADMWEVNP01",,,
+Summer Profitibility,,BI initiative.,Finance,,,"wykoffpa, gollas",,,,
+Alumni shopping cart,Business Application,,Fundraising,,clarksm@muohio.edu,Magimap1,,Oracle,PHP,In House
+Phonathon,Business Application,,Fundraising,,wrightjw@muohio.edu,joneste,,,,
+Alumni Stewardship Reports,Reports,,Fundraising,,joneste@muohio.edu,Magimap1,,Oracle,ColdFusion Application,
+Banner Advancement,Sub-system,,Fundraising,,,magimap1,,Oracle,,Sungard
+Banner Advancement Self Service,Sub-system,,Fundraising,,,magimap1,,Oracle,pl/sql,Sungard
+Alumni Association Web page,Web page,,Fundraising,,,,,,,
+iModules,,,Fundraising,,joneste@muohio.edu,joneste@muohio.edu,SaaS,,,iModules
+Stewardship report distribution,,,Fundraising,,joneste@muohio.edu,holbrobc,,,,
+CSGold,Business Application,Door Access software-,HDGS,,,"kidddw, tholesm",,,,CBORD
+MyCard,,,HDGS,To be investigated.,Steve Thole,,,,,
+Kronos,Business Application,Timekeeping system,HR,,wheelean@muohio.edu,"gopalsk, holbrobc",,Oracle,,
+OEEO Federal Reporting System,Business Application,"Helps OEEO to report all new applicants, employee positions, promotions, employee terminations, hires and applicants to the federal government on an annual basis (It's not in production yet)",HR,,ledford@muohio.edu,arockis,,Oracle,ColdFusion,
+PeopleAdmin,Business Application,Employment vendor - we can advertise job openings; applicants can apply for jobs.,HR,,stossk@muohio.edu,"magimap1, emgeac",,Oracle,,PeopleAdmin
+Windstar,Business Application,Application that aids in admin of international employees (non-US citizens).,HR,,groomra@muohio.edu,emgeac,,,,
+Banner Employee Self Service,Sub-system,,HR,,,emgeac,,,,
+Banner Human Resources,Sub-system,,HR,,,emgeac,,,,
+Banner Position Control,Sub-system,,HR,,,emgeac,,,,
+Kronos Background Processing,Sub-system,Timekeeping system,HR,,,"gopalsk, holbrobc",,,,
+Kronos VOIP Time Recording,Sub-system,Timekeeping system,HR,,,"gopalsk, holbrobc",,,,
+AIG Retirement Manager,,,HR,,,,,,,
+Faculty Elections,,,HR,,witherre@muohio.edu,"fernanjm, hermansd",,Oracle,Cold Fusion,In House
+Faculty Evaluations,,To allow Faculty to evaluate the Deans and Provost,HR,,bradbukf,Kandasm,,Oracle,Cold Fusion,In House
+FMLA Request Form,,,HR,,,,,,,
+FSB Employment,,,HR,,,,,,,
+Open Enrollment,,,HR,,,,,,,
+Payroll Deduction for Graduate Assistants,,,HR,To be investigated,,Meena,,,ColdFusion,
+Personnel Data Sheets,,"Web page used by new hires to submit their personnel data to HR (name, SSN, DOB, address, etc.)",HR,,groomra@muohio.edu,emgeac,,,ColdFusion,
+SkillPort,,Terminated-HR may be using a portion,HR,,,,,,,
+Student Raises,,Application that allows department supervisors to grant raises to student employees,HR,,stossk@muohio.edu,arockis,,Oracle,PHP,In House
+Oracle Enterprise Manager,,,IT Serivces - DBAs,,,,,Oracle,,
+Wordpress,Business Application,Content Management System,IT Services,,,evinsmj,,,,
+ATS Video Editing Server,Server,,IT Services,,,,,,,
+Drupal,Tool ???,Content Management System,IT Services,,,tepeds,,,,
+Administrative REST Services,Web Service,,IT Services,,,"covertka, tepeds, kidddw, hermansd",,Oracle,"PHP, Java",In house
+NOC-IT,,IT Services internal configuration management database,IT Services,,,covertka,,Oracle,,
+Software Licensing Server,,,IT Services,,,,,,,
+Tegrity Cart,,,IT Services,,,campbega,,,,
+Puppet Labs,,Data Center Automation,IT Services - BIS,,,robinr,,,,
+RSA Authentication,,,IT Services - BIS,,,,,,,
+Unixgen applications,,,IT Services - BIS,,,,,,,
+Video Conferencing,,,IT Services - BIS,,,,,,,
+Oracle Business Intelligence Enterprise Edition,,,IT Services - EIS,,,,,Oracle,,
+Telecom Billing Application,Business Application,Allows clients to view telecom bills.,IT Services - Telecom,,,covertka,www.admin.muohio.edu,Oracle,PHP,In House
+SCLogic Mailroom software,Business Application,,Mailroom,,,shawvewg,,,,SCLogic
+Prezi,,,Miscellaneous,,,,,,,
+Share Point 2007 & 2010,,,Miscellaneous,,,,,,,
+Snap,,Snap Surveys is a Windows-based survey tool for creating both scannable paper and web surveys.,Miscellaneous,,,woodsdm2,,,,
+Active Perl,Development Language,Windows based version of Perl,Personal Productivity,,,,,,,
+Brio Report Builder,,Tool for writing and running reports in SQR.-40 licenses under maintenance.,Personal Productivity,,,emgeac,,,,
+Athlete Medical Information,Database ???,,Student,,,,,,,
+Career Shift,,,Student,,,,,,,
+CollegiateLink,,"Student Organization registration and membership tracking, aka ""The Hub""",Student,,wilso106@muohio.edu,bracksk,SaaS,,,Campus Labs
+Commencement,,Address and Survey portion of the Commencement site,Student,,"jonescm3@muohio.edu, krallmda@muohio.edu",scottse2,,Oracle,Cold Fusion,
+Counseling for Learning Assistance Center,,,Student,,,,,,,
+Disability Services for Learning Assistance Center,,,Student,,,,,,,
+Office of Residence Life Web Service,,,Student Affairs,,,,,,,
+Recruitment Plus,Business Application,Being replaced by Oracle CRM,Student Recruitment,,jen.herman@muohio.edu,"kidddw, fernanjm",,SQL Server,,CollegeBoard
+Townsquare,Business Application,University commentary and editorial site.,Student Recruitment,,,tepeds,,,,
+App Check,Do not know,,Student Recruitment,,jen.herman@muohio.edu,kidddw,,SQL Server,Coldfusion Application,in House
+Axiom,Interface,Interfaces applicant records to Banner,Student Recruitment,,jen.herman@muohio.edu,"kidddw, fernanjm",,Oracle,,SSD Inc.
+Data Entry,,,Student Recruitment,,jen.herman@muohio.edu,kidddw,,,,
+Chalk and Wire e-Portfolio, ,"Portfolio/assement tool used by CELTUA; freshman English journals, teachered portfolios",Teaching and Learning,,,campbeg,,,,Chalk&Wire
+Advising and Tutor System,Business Application,,Teaching and Learning,,mintondm@muohio.edu,"kidddw, scottse2",admw3k01,,,RedRock
+Advisor Assignment,Business Application,"Process assigns advisors to students based on custom criteria. Involves web site for advisor display, site for admins of rules, reporting etc.",Teaching and Learning,,jonescm3@muohio.edu,bracksk,admaix38 for advisor assignment.,Oracle,"sqr, coldfusion",n/a
+Bernie - Tutoring Scheduling,Business Application,,Teaching and Learning,,,scottse2,,Oracle,Cold Fusion,
+BioInformatics Portal,Business Application,,Teaching and Learning,,,,,,,
+Class Roster,Business Application,,Teaching and Learning,,euenal@muohio.edu,,,,,
+"Course Evaluation Software (CollegeNet ""What Do You Think"")",Business Application,,Teaching and Learning,,,"fernanjm, kandasm",SaaS,,,CollegeNet
+CSE portal,Business Application,Coordinates multiple sections of CSE141/148,Teaching and Learning,Not on our server,,tepeds,SEAS,MySQL,PHP,In House
+DARS (u.achieve degree audit),Business Application,,Teaching and Learning,,jonescm3@muohio.edu,cohillt,,,,
+iTunes U,Business Application,,Teaching and Learning,,,was Ensor,,,,
+Performance Pyramid,Business Application,Used by Doug Brooks for his classes.,Teaching and Learning,,,brooksdm,,,,
+Sakai,Business Application,Learning Management System,Teaching and Learning,,,tepeds,,,,
+Video On Demand (Video Furnace),Business Application,,Teaching and Learning,,,,,,,
+Volunteer System (Community Engagement and Service),Business Application,Application that have information about volunteer projects for students to participate. (obsolete?),Teaching and Learning,,waysmp@muohio.edu,arockis,,Oracle,ColdFusion,In House
+Common Leadership Application,Business Applicaton,,Teaching and Learning,,treadwsm@muohio.edu,fernanjm,,Oracle,ColdFusion,
+Grade Submission (Sakai to Banner),Sub-system,"Allows faculty to copy grades from the Sakai LMS and store them in Banner.  In the future, this same application may be used for other LMS systems on campus as well as Excel uploads and may completely replace the grade submission facility in BannerWeb.",Teaching and Learning,,euenal@muohio.edu,"covertka, tepeds",,Oracle,Groovy/Grails,
+Compliance Assist,,Academic assessment and accreditation,Teaching and Learning,,haynesca@muohio.edu,woodsdm2,,,,Campus Labs
+Digital Humanities,,,Teaching and Learning,,,,,,,
+Dragonfly,,,Teaching and Learning,,,,,,,
+Education Applications (Flash Media Server),,,Teaching and Learning,,,,,,,
+Embark,,Image cataloging for Art Department,Teaching and Learning,Low Impact,,Astrid Otey,,,,
+eMuseum,,,Teaching and Learning,,,,,,,
+Engagement Opportunities (Adopt-A-School),,Web application to maintain the tutoring programs,Teaching and Learning,,waysmp@muohio.edu,arockis,,Oracle,Cold Fusion,In House
+IRLC applications,,Used for teaching language courses,Teaching and Learning,,,meyersde,,,,
+MineCraft,,,Teaching and Learning,,,,,,,
+MyProjectDragonfly,,,Teaching and Learning,,,,,,,
+Online Journal System,,,Teaching and Learning,,,,,,,
+Project Management For Academics,,,Teaching and Learning,,,,,,,
+Scanner,,,Teaching and Learning,,,,,,,
+Second Life,,,Teaching and Learning,,,,,,,
+SQL Web Front End,,,Teaching and Learning,,,,,,,
+Student Benchmarking (NCATE),,Assessment System for Education Majors,Teaching and Learning,,mcgowat@muohio.edu,"scottse2, arockis",,Oracle,Cold Fusion,In House
+StudioAbroad,,Used for students to search and register for Study Abroad.  Tracks applications and required forms for Study Abroad.,Teaching and Learning,,,"bracksk, arockis",mualsabp01,Oracle,Coldfusion,Terra Dotta
+SVN (SEAS),,Subversion Code Depository,Teaching and Learning,,,,,,,
+Test Scoring,,,Teaching and Learning,,pattonjm@muohio.edu,,,,,
+Turnitin,,,Teaching and Learning,Cloud Service integrated with Niika,,,,,,
+Tutor Trac,,,Teaching and Learning,,,,,,,
+Almagest,Business Application,"Used by Art Department for teaching about artwork in the classroom.  Allows faculty to pick various images of artwork based on metadata stored about the artwork and arrange them in a PowerPoint style presentation to be used in the classroom.  In addition, it allows faculty to create quizzes based on those artwork images",Teaching and Learning/Art Department,Low impact,,"tepeds, covertka, Astrid Otey",mulnx30,Oracle,Java,Princeton U
+Almagest PowerPoint exporter,Sub-system,Used with Almagest.  Allows an Almagest lecture to be exported to PowerPoint.,Teaching and Learning/Art Department,Low Impact,,"tepeds, covertka, Astrid Otey",muwin17,Oracle,,Princeton U
+Cascade CMS,Business Application,Used by University Communications (and others in the future) as the University-wide Content Management System for University web pages.,University Communications,,,"pashaktm, coaltbd, tepeds",,,,
+Miami Home page and associated web pages,Web Pages,,University Communications,,,"tepeds, pashaktm",,,,
+NPIO News and Public Information Site,,,University Communications,,,"wagnercm, pashaktm",,,,
+Academic Evaluation,Business Application,,University Operations,This may be more of a student admin app because the users are facultyworking on behalf of ICA. Need more info on this.,,,,,,
+Account Gen (real time),Business Application,Homegrown account provisioning system (IdM),University Operations,,,"tepeds, kidddw, covertka",,Oracle,Perl,In house
+Altiris Management Suite,Business Application,Includes Service Desk and workflow-9000 nodes-Essential Support- 23 x 7,University Operations,,toaddyjm@muohio.edu,"toadyjm,
+beckmd",michigan,SQL Server,.NET,Symantec
+Campus Event Ticketing System,Business Application,Ticketing system for athletic and performing art events,University Operations,,weikela@muohio.edu,holbrobc,Hosted off site by vendor,,,NeuLion
+Class (Rec Center),Business Application,Tracks scheduling of facilities and Point of Sale,University Operations,,walkerm3@muohio.edu,"kidddw, hermansd, walkerm3","fusw3k02, fusw3k01","Oracle, MSSQL",,
+Classroom Instructors,Business Application,This application is used internally by IT Services when making changes to a classroom.  It allows Classroom Services to see what faculty are teaching in a particular classroom so they can be notified of outages and changes.,University Operations,,,,,,,
+Confluence WIKI,Business Application,"Highly functional, enterprise-focused wiki software",University Operations,,,"beckmd,
+bracksk",kiva,Oracle,Java,Atlassian
+Course List,Business Application,Allows students to search and view what courses are offered at the University.,University Operations,,kuykenta@muohio.edu,bracksk,,,,
+e2campus,Business Application,Emergency Text Messaging Service,University Operations,,spilmabr@muohio.edu,holbrobc,Service hosted off site,,,e2campus
+eBill (Bursar),Business Application,Billing service offered by vendor CASHNet,University Operations,,cassankl@muohio.edu,"kandasm, holbrobc",,,,CASHNet
+eMuseum,Business Application,Web application which allows public veiwing of art objects and uses the art museum database - service not live yet,University Operations,,henderlb@muohio.edu,holbrobc,,Oracle,,Gallery System
+Foreign Language Placement,Business Application,"Arts & Science application that interfaces between Miami systems and an external language testing service.  Among other things, this interface receives scores from the external language service and stores them in Banner.",University Operations,,meyersde@muohio.edu,fernanjm,,Oracle,PHP,
+Goalquest Administrative System,Business Application,Sends parents newsletters and tracks their interest,University Operations,,stewarke@muohio.edu,scottse2,SaaS,,Cold Fusion,
+Google Mail,Business Application,Mail system for students,University Operations,,,,,,,
+itONE / Pinnacle,Business Application,IT Services billing system,University Operations,,,magimap1,Obsolete,,,
+Jabber IM,Business Application,Chat server,University Operations,,,tepeds,mualimsp01,MySQL,,
+Judicial Action (PAVE),Business Application,Tracks university disciplinary actions,University Operations,,taylorcm@muohio.edu,gopalsk,,Oracle,asp,Pave Systems
+Listserv,Business Application,,University Operations,,,covertka,,,,LSoft
+Micros Dining,Business Application,,University Operations,,tholesm@muohio.edu,Steve Thole,,,,
+Museum System (TMS),Business Application,Stores art images and descriptions of art museum objects,University Operations,,henderlb@muohio.edu,holbrobc,,Oracle,,Gallery Systems
+Nebraska Bookstore (Bookstore PoS service),Business Application,,University Operations,,,tholsesm,,,,
+Photo roster,Business Application,Allows faculty to see a roster of the students in their classes along with photos of the students.  This is scheduled to replace all other rosters in the near future.,University Operations,,euenal@muohio.edu,,,,,
+Prezza Checkbox Web,Business Application,Survey tool-site license,University Operations,,,woodsdm2,,,,Checkbox
+Project Portfolio Management,Business Application,"Project portfolio, time tracking system",University Operations,,mcveyc@muohio.edu,"sabatelm, dillonm",SaaS,,,PowerSteering Software
+QS1 Pharmacy Application,Business Application,,University Operations,,kammerkh@muohio.edu,magimap1,SAFWQS1P01,,,QS1
+Right Answers (KB),Business Application,Public-facing tier 0 knowledge base,University Operations,,oharakm@muohio.edu,"oharakm,
+tepeds,
+beckmd",,,,
+Summer Orientation,Business Application,Allows students to register for an orientation session,University Operations,,stolle@muohio.edu,kandasm,,Oracle,Coldfusion,In House
+Symantec Service Desk,Business Application,"Incident management, change management, simple service requests",University Operations,,toaddyjm@muohio.edu,toaddyjm,,SQL Server,.NET,Symantec
+Titanium (Student Counseling),Business Application,,University Operations,,alishikc@muohio.edu,scottse2,SCSWITP01,Oracle,,
+TRAIN,Business Application,Allows clients to sign up for various training opportunities on campus,University Operations,,,,,,,
+FileMaker Pro,Database,,University Operations,,,"scottse2, kandasm","muawfmsp01, muawfmsp02",FileMaker,,FileMaker
+Oracle DBMS,Database,,University Operations,,,,,Oracle,,
+SQL Server DBMS,Database,,University Operations,,,,,,,
+Active Directory,Directory,Directory service,University Operations,,,"supingmw, henebrbm",,,,
+LDAP - SunOne,Directory,Directory Service,University Operations,,,tepeds,,,,
+Firewall,Firewall,,University Operations,,,,,,,
+Mobile MyMiami,Portal,Mobile web presence for Miami,University Operations,,,,,,,
+Account Gen (nightly),Sub-system,Homegrown account provisioning system (IdM),University Operations,,,"tepeds, kidddw, covertka",,Oracle,Perl,In house
+Banner Faculty and Advisor Self Service,Sub-system,,University Operations,,,,,,,
+Banner Financial Aid,Sub-system,,University Operations,,,"arockis, scottse2",,Oracle,,SunGard
+Banner Financial Aid Self Service,Sub-system,,University Operations,,,"arockis, scottse2",,Oracle,,SunGard
+Banner General,Sub-system,"All general Banner functionality such as job submission, security, SDE, event management, etc.",University Operations,,,emgeac,,,,
+Banner General Self Service,Sub-system,,University Operations,,,emgeac,,,,
+Banner IntComp,Sub-system,"Dups?
+Imaging (Banner)
+Banner IntComp
+IntComp",University Operations,,,johnsoda,,,,
+Banner Job Submission,Sub-system,,University Operations,,,emgeac,,,,
+Banner Printing,Sub-system,,University Operations,,,,,,,
+Banner Student,Sub-system,"Banner Student related functionality including registration, course and instructors, admission, Accounts receivable, academic history",University Operations,,,"bracksk, scottse2",,Oracle,,Sungard
+Banner Student Self Service,Sub-system,"Banner Student services including registration, student records, Financial Aid info.  Faculty Services include class lists, schedules, grading, advising",University Operations,,,"bracksk, scottse2",,Oracle,,Sungard
+Banner WebTailor,Sub-system,Allows for administration of all the Banner self service modules.,University Operations,,,emgeac,,,,
+Banner Workflow,Sub-system,Sungard WF application.,University Operations,,,emgeac,,,,
+Courtesy Account,Sub-system,Request and track courtesy accounts for non-Miami people,University Operations,,eichleps@muohio.edu,tepeds,,,,
+Goggin Ice Schedule,Sub-system,Displays the schedule from the Class System on monitors in Goggin,University Operations,,walkerm3@muohio.edu,,,,Cold Fusion,In House
+Imaging (Banner),Sub-system,"Dups?
+Imaging (Banner)
+Banner IntComp
+IntComp",University Operations,,,Dan,admwin09 (prod)               Admwin10 (test),,,Sungard
+Outlook Web Access,Sub-system,Web-based access to Exchange mail,University Operations,,,,,,,
+Pyramed database access,Sub-system,,University Operations,,kammerkh@muohio.edu,magimap1,"Atai, Targa",Oracle,,PyraMed
+Audio/Microphone,Tool,,University Operations,,,,,,,
+AV Control Systems,Tool,,University Operations,a.k.a. Crestron,,,,,,
+Bomgar Remote Support-12 licenses (4 owned by departments external to UIT),Tool,"Provides easy remote control of desktops, does additional duty for chat support for SD/Registrar/Finanace and Business Services/ICA",University Operations,,,beckmd,bomgar,n/a,n/a,Bomgar
+Central Authentication Service (CAS),Tool,Single sign-on service,University Operations,,,beckmd,"mualidpd01, mualidpt01, mualidpt02, mualidpp01, mualidpp02",MySQL,Java,JASIG
+Concurrent Versioning System (CVS),Tool,"Decomissioned, no longer used",University Operations,,,tepeds,,,,
+Harvest Change Manager (CA),Tool,Source Code Repository for Banner code,University Operations,,,DBAs,,,,
+Hershey,Tool,Obsolete,University Operations,,,,,,,
+JIRA Issue Tracker,Tool,Issue/incident tracking,University Operations,,toaddyjm@muohio.edu,beckmd,kiva,Oracle,Java,Atlassian
+Authorization Manager,Tool ???,,University Operations,,,"tepeds, kidddw",,Oracle,PHP,In House
+Control-M/EM job scheduler,Tool ???,Application that runs jobs per schedules.,University Operations,,,johnsoda,,,,BMCsoftware
+Career Services,,,University Operations,,,,,,,
+Change Control Webpage,,,University Operations,No longer used,,,,,,
+Cisco ACS (Network Device Management),,,University Operations,,,,,,,
+Cisco Application Network Manager,,,University Operations,,,,,,,
+Cisco Prime,,,University Operations,,,,,,,
+Ciscoworks Firewall Management Console,,,University Operations,,,,,,,
+Clean Address,,Address Standardization software,University Operations,,,kidddw,mualbanp01,,,
+Clicker,,,University Operations,,,,,,,
+Data Warehouse (Oracle Warehouse Builder),,Eliminated 2011,University Operations,,,,,,,
+Deploy Studio (Mac Imaging),,,University Operations,,,,,,,
+Dept/User Web Services,,Provides web file space to departments,University Operations,,,tepeds,sunhawk/hlhunley,,,
+DIGITAL SIGNAGE,,,University Operations,,,,,,,
+e-Signature,,Web application to create electronic forms,University Operations,,"shockb@muohio.edu, groomra@muohio.edu","kidddw, arockis",,Oracle,Cold Fusion,In House
+E-Visions FormFusion,,,University Operations,,,"gopalsk, magimap1, kandasm","ADMWEVNT01,ADMWEVNP01",,,E-Visions
+Enterprise Manager - Oracle,,,University Operations,,,,,,,
+ePromise (Bursar),,Captures student financial commitment in BannerWeb,University Operations,,cassankl@muohio.edu,holbrobc,,Oracle,,
+EthicsPoint,,Allows anonymous submission of concerns,University Operations,,,poleysa,,,,
+Event Calendar,,Provides posting and browsing of events at Miami,University Operations,,,tepeds,naslnx14/15,Oracle,PHP,In House
+eVisions - Intellicheck,,,University Operations,,,"gopalsk, magimap1, kandasm","ADMWEVNT01,ADMWEVNP01",Oracle,,In House
+Exchange,,,University Operations,,,,,,,
+Facility Design,,,University Operations,,,,,,,
+Greek Recruitment,,,University Operations,,JLevering@muohio.edu,"kidddw, fernanjm",,Oracle,Cold Fusion,
+Host-Based Intrusion Detection System,,,University Operations,,,,,,,
+ICA CyberSports Application,,,University Operations,,,,,,,
+INAS,,Was this replaced by a component in Banner?,University Operations,,shockb@muohio.edu,arockis,,,,
+INNfinity Reservation System,,Used by Marcum conference center,University Operations,,,,,,,
+IntComp,,"Dups?
+Imaging (Banner)
+Banner IntComp
+IntComp",University Operations,,,Dan,,,,
+Internet Bandwidth Management,,,University Operations,,,,,,,
+iOffice,,Software used for working with international students and properly handling visas and the reporting them to the federal government,University Operations,,mheidemann@muohio.edu,kidddw,,,,Sunapsis http://sunapsis.iu.edu/
+ISS Central,,,University Operations,,,hermansd,,,,
+IT Photo Lab FileShare,,,University Operations,,,,,,,
+Mass Mailing Service (SendMail),,,University Operations,,,,,,,
+MediaWiki,,,University Operations,,,,,,,
+Meeting Point,,,University Operations,,,,,,,
+Miami Directory,,Web interface to LDAP,University Operations,,,tepeds,naslnx05,,PHP,In House
+MiamiSearch,,Coordinates web searches and sends them to Google,University Operations,,,tepeds,naslnx05,,Perl,In House
+MInE (Brio Portal) Hyperion,,Application that allows clients to run SQR reports and view output.,University Operations,,,"emgeac, gollas",,,,Oracle
+MRTG,,,University Operations,,,,,,,
+MUNet Password Utilities,,Provides password policy enforcement and password change syncing,University Operations,,,tepeds,mualwasp01/2,,Perl,In House
+Nagios Monitoring Service,,Monitoring/alerting service for servers,University Operations,,,henebrbm,,,,Nagios Enterprises
+Native Banner (Oracle) Password Utility,,Allows users to reset forgotten Oracle passwords,University Operations,,,tepeds,mualphpp01/2,,PHP,In House
+netDisk - web application,,Web-based access to Windows File Services - primary method for setting up sharing of files,University Operations,,,covertka,naslnx14/15,Oracle,PHP,In House
+netDisk - Windows File Services,,,University Operations,,,supingmw,,,,
+Network Management and Monitoring Systems,,,University Operations,,,,,,,
+One-Card (Unix),,,University Operations,,kerri.jackson@muohio.edu,kidddw,,,,Hewlett Packard
+One-Card Universal Edition,,,University Operations,,,kidddw,,,,Blackboard
+Pay-For-Print,,,University Operations,,stossk@muohio.edu,,,,,
+PGP Encryption,,2000 nodes,University Operations,,,Bazeley/L. Harris,,,,CDV
+Police Dispatch (Report Exec),,Stores crime reports,University Operations,,spilmabr@muohio.edu,holbrobc,,SQL Server,,
+Power Park (Parking Services),,This is being replaced by BossCar,University Operations,,cummigvr@muohio.edu,"scottse2, kidddw",,Oracle,,
+Radius Authentication,,,University Operations,,,,,,,
+Returning Student Application,,Re-Enrollment Application to process former students who would like to re-enroll into a program at Miami University,University Operations,,euenal@muohio.edu,"kuykenta, bracksk",,,PHP,In House
+RoomView (Room Scheduling service for Exchange),,,University Operations,,,,,,,
+ScanNet client access (for Parking Garage App),,,University Operations,,cummigvr@muohio.edu,kidddw,"muwin19, muwin13",,,
+Service Awards (Student Affairs),,,University Operations,,stewarke@muohio.edu,"kidddw, scottse2",,,Cold Fusion,
+Shibboleth,,Federated user managment,University Operations,,bazeleje@muohio.edu,"kidddw, beckmd, tepeds",,,,
+SMS / Tipping Point,,,University Operations,,,,,,,
+Software Store,,Provides department and individual acquisition of various software,University Operations,,,tepeds,naslnx14/15,MySQL,PHP/Drupal,
+Star Receiver,,Mail room tracking,University Operations,,byrdab@muohio.edu,Premila or Brian?,,Oracle,,InHouse
+Student Concern Management System,,For faculty to submit concerns to case manager,University Operations,,parsontj@muohio.edu,"holbrobc, kandasm",,Oracle,Cold Fusion,In House
+Student Health Fee Waiver,,allow students to waive the university health insurance,University Operations,,kammerkh@muohio.edu,,,oracle,Cold Fusion,In House
+Student Organization Registration System,,Tracks Student Organizations types and membership,University Operations,,wilso106@muohio.edu,"bracksk, kidddw, scottse2",,Oracle,PHP,In House
+Subversion (SVN),,Source Code Management,University Operations,,,"tepeds, kidddw, fernanjm",,,,
+Technical Service Catalog,,,University Operations,,toaddyjm@muohio.edu,toaddyjm,,,,
+TSM (Tivoli),,,University Operations,,,,,,,
+Unique ID Lookup,,Allows clients (and support units?) to look up a uniqueId (username) for a user based on personal data for that individual.,University Operations,,,schaefdm,,,,
+uPrint,,,University Operations,,,,,,,
+Verify and Logging,,,University Operations,,,,,,,
+VMware,,,University Operations,,,,,,,
+VoIP,,,University Operations,,,,,,,
+Voter Proof of Address,,Application that allows the students to print their proof of address letter signed by university registrar,University Operations,,euenal@muohio.edu,arockis,,Oracle,ColdFusion,In House
+VPN Client,,,University Operations,,,,,,,
+WAS (Web Authentication Services),,Provides web single-signon services,University Operations,,,tepeds,mualwasp01/2,Oracle,Perl,In House
+WebFOCUS,,Report writing tool used by offices outside of IT.,University Operations,,,gollas,,Oracle,Web Focus,Information Builders
+Alcohol Edu,Business Application,Educates students about alcohol. MU interface created to vendor site.,University Operations - Health Services,,kammerkh@muohio.edu,magimap1,,,,
+B1TS applications,Business Application,"B1TS is a ""consulting"" service run by students out of SEAS.  Alan Ferrenberg and Kent Covert both serve on the Board of Directors.",,,,troyda,,,,
+Banner-ERP,Business Application,University wide ERP with associated unit specific modules,,,,,,,,
+Central FDH form processor,Business Application,This application allows users to very simply collect information in an HTML form and email or store the information in a file.,,,,tepeds,,,,
+Millenium (Innovative Interfaces) Library System,Business Application,,,,,Stan Brown,,Proprietary - moving to Postgres,,Innovative Interfaces
+Pyramed II (Media Highway),Business Application,,,,,,,,,
+MySQL database server,Database,,,,,tepeds,,MySQL,,
+OpenLDAP,Directory,Directory Services - replaced SunOne LDAP,,,,henebrbm,,,,
+AIMS,Do not know,Armstrong Institute for Interactive Media Studies,,,,,,,,
+Bastion Host,Do not know,,,,,"bradlesw, johns128",,,,
+myMiami (myCampus),Portal,University Portal - replacing Blackboard portal,,,,"covertka, tepeds",,MySQL,Java,CampusEAI
+CAS Departmental Mac OS X file server,Server,,,,,,,,,
+Lifetime Email for Alumni Sign-up Form,Sub-system,,,,,tepeds,,,,
+DHCP,Tool,,,,,,,,,
+DNS,Tool,,,,,,,,,
+Advisor Trac,,,,,,,,,,
+Cacti,,,,,,simpsojc,,,,
+Certificate Services,,,,,,,,,,
+EDA Server for Focus (iWay),,,,,,,,,,
+eGuardPost,,Controlled vendor access to local systems,,,,"bradlesw, johns128",,,,Quest
+Email Alias,,,,,,tepeds,,,,
+Employee Health and Well Being,,,,,,,,,,
+ePolicy Orchestrator (EPO),,,,,,,,,,McAfee
+Faculty Evaluations Farmer School of Business,,Allow the Faculty in the Farmer School of business to evaluate Deans in the School of Business,,,Mark Wesolowski - wesoloma@muohio.edu,Kandasm,,Oracle,Cold Fusion,In House
+FormScape,,Obsolete?,,,,,,,,
+GlobalScape SFTP (Front-ends DFS),,EFT Server,,,,supingmw,,,,
+Miami Mobile iPhone Application,,,,,,Jerry Gannod,,,,
+MSDN Academic Alliance,,,,,,sanderm,,,,Microsoft
+MUDEC Print Manager,,,,,,,,,,
+Nessus Perimeter Service annual subscription,,,,,,bradlesw,,,,Tenable
+Nessus Scanner,,,,,,"bradlesw, johns128",,,,Tenable
+Ohio Writing Project Administrative Web Site,,,,,,,,,,
+Online Photo Archive,,,,,,,,,,
+Parking Office Ticketing/Permit Software (BossCars),,,,,cummigvr@muohio.edu,"scottse2, kidddw",,,,Boss Cars
+Password Auto Repository,,,,,,,,,,
+Personal Software Sales,,,,,sanderm@muohio.edu,sanderm,,,,
+Real Time Finduser,,Part of Real Time Acctgen - allows support groups to view current account management status information,,,,tepeds,,,,
+Sendmail,,,,,,,,,,
+Student Voice,,Survey software,,,kressetj@muohio.edu,kressetj,,,,
+u.achieve,,DARS,,,jonescm3@muohio.edu,cohillt,,,,CollegeSource
+Web Space Account Creation App,,,,,,,,,,
+Whiteboard,,,,,,,,,,
+Windows Terminal Services,,Used for Treasury Services,,,,,,,,
+Windows Update Proxy Server,,,,,,,,,,
+Wireless Control System,,,,,,,,,,
+,,,,,,,,,,
+Banner Mod (A.3.23) - Student Response Indicator,,10/15/2008         Allows the Bursar to set the student response indicator on SCT forms tsaspay and sfaregs.,Banner Mod/BUR,,,arockis,,,,
+Banner Mod (C.2.2) - Batch Decision Entry,,1/24/2007  ADM.00365 Mod C.2.2 Batch Entry SZADECS Ban7.3    @guraobj_szadecs_update.sql                                                                                          This is the Batch Decision Entry mod that allows the admission office to enter a batch of decisions on records instead of 1 decision at a time.  This it to help speed up the process of entering the decisions on applicants.,Banner Mod/ADM,,,Don Kidd,,,,
+Banner Mod (C.2.3) - Academic Credentials,,"10/7/2008  Part of this is going away but some of it will be staying.      Jen                                                                                                                           This the the mod for adding additional fields on some banner forms.  This is also the mod for the best test score changes, and mods we have to make to show a best test score,  this mod will be going away as we are changing the best test score from a calculated on the fly field, to a stored actual test score.",Banner Mod/ADM,,,scottse2,,,,
+Banner Mod (C.2.9) - Retrieval of Applicant Records,,10/13/2008            This is a modification the the baseline search form that is used by admission.  An additional search field is added for the office.,Banner Mod/ADM,,,scottse2,,,,
+Banner Mod (C.5.2) - DARS,,"12/9/2008    This mod is not Obsolete as per Suzanne Brock.                                                                                     11/14/08   This mod is obsolete     Suzanne B.                                                                                                                                                                                         9/29/08   Keep Carol J.                                                                                                                                                                      4/20/2000 Revised SZADARQ in PROD.                                                                            3/9/2000 New version of 11 DARS forms version 3.2 in PROD.  SZASMST is 3.0.9/17/99 Mumtaz having problems with Harvest.
+3/2/2000 New version of 11 DARS forms version 3.2 in DEVL.9/20/99 Resolved Harvest errors.  Mumtaz checked code in and I checked code out.  Got errors on table create script.  Asked Mumtaz to create a separate script for each table and create the synonym at the end of each script.  
+2/21/2000 new version of SZAEVAL in DEVL.
+2/21/2000 new version of SZBDBRG.pco in DEVL
+2/17/2000 new version of SZBDBRG.pco in DEVL9/23/99 Generated new SZAAMSS form.  Sent email to Mumtaz.
+2/15/2000 new version of SZBDBRG.pco in DEVL                                                             1/31/2000 Tried new make file darprocb.mk 3 times.  Still got errors.                                 1/28/2000 Worked with Carty and Sam to correct make file and check into Harvest
+Recompiled.  Got errors.  Tried again around 7:30 PM - errors                                      1/10/2000 Helped Sam check a new version into Harvest.  Recompiled SZBDBRG in DEVL.  Got errors.  Sent email to Carty.                                                                                 1/8/2000 Recompiled SZBDBRG.  Got errors.  Sent email to Carty.                                   11/10/99 Generated latest forms for DARS in DEVL.  Copied forms to banuis\fmx32                                                                                                 10/20/99 Ran script to recreate szvinst and regenerated forms SZADARQ, SZADARO and SZVINST.  Sent email to Mumtaz.                                                                             10/20/99 Generated latest forms SZADARQ,SZADARO and SZVINST.
+9/22/99 Asked John to create security entries from UIS.   
+9/21/99 Ran scripts to create tables.  Created forms.",Banner Mod/REG,,,Tyron Cohill,,,,
+Banner Mod (C.5.4) - Transcript Holds,,"12/9/2008    This mod is not Obsolete as per Suzanne Brock.                                                                                     10/8/08   Obsolete as per Suzanne                                                                                                                                         9/29/08   Keep Carol J.                    Keep Transcripts from going to a person wihen they are on hold. Once a hold is removed it prints.                                                                                     1/16/2007    REG.00365 C.5.4 Transcript Holds             soahold.fmb                                                                                                                                                                    4/20/2000 Recompiled shrtrtc.pc in DEVL.  Sent email to Jan et al. 4/21/00 Bill recompiled shrtrtc.pc in PROD.  Sent email to Jan.   1/8/99 Installed new forms and created 
+new table.
+4/19/2000 Jan found a bug.  If a student has more than two holds and one is released, the transcript is printing and it should not.  Forwarded her email to Justin.1/21/99 Received 4 new forms from SCT.
+4/13/2000 Installed 3.2.1 version of SOQHOLD in PROD after approval from Jan.  Result of inquiry from Dave Johnson in Middletown.1/25/99 Compiled new forms and ran scripts.  
+1/11/2000 Justin sent revised version of SOQHOLD (3.2.1) with our mods applied.  Notified Jan to test in PPRD.1/26/99 Received new version of SZAHLDG with correct title.  Generated form and notified Jan Williamson et al.
+7/21/99 Reapplied to DEVL after refresh from PROD.  9/6/99 Mod installed in PROD.                  7/15/99 Received email from Andy.  Mod accepted.                                                      5/18/99 Ran scripts to create views and generated forms.  All appered to work except SOQHOLD.  Sent email to Justin at 1740.  Realized the Q in SOQHOLD stopped me from accessing the form.  Sent message to Jan et al to test at 1750.                                            
+5/18/99 Received call from Jan Walton.  She is experiencing problems with the Fresh Start mod C.5.7.  asterisks(*) have disappeared and the credit summary line is gone from the transcript.  I checked and the last time we changed the transcript program was 3/24/99 for mod C.5.4.  Justin said the changes would not affect Fresh Start, but it looks like it may have.  Justin is checking it out.                                                                                                                  5/12/99 Received new views and forms from SCT.3/24/99 Received email from Justin: I am attaching a revised copy of the transcript file, shrtrtc.pc along with the migrate and compile scripts.  The revision will solve the problem Jan was having while attempting to print
+transcripts of students who may have had holds.  The revisions are for mod C.5.4-Transcript Holds, they will not affect Fresh Start.  Compiled the new program and sent email to Jan et al to test.
+5/11/99 Feedback from Jan Williamson: It appears the VIEW only is not working properly.                       3/24/99 1705 Feed back from Jan:It is with EXTREME delight that I can report that this mod (Phase I) is finally working!  Thank you Justin and Aileen!  I want to work with Ginny to do further testing on several items.
+2/12/99 Jan sent feedback to Justin:  I attempted to add me as a new user under GUAIDEN.  I am unable to do so.  I get an error  FRM-40508 Oracle Error:  Unable to insert record.",Banner Mod/REG,,,Jan Williamson/Suzanne Brack,,,,
+Banner Mod (D.2.1) -  Application Security,,"10/7/08    May be obsolete if fine grain access works.    ADM will test in Banner 8                                                                                  This is the mod that copies the saaadms form, and creates a form for each campus, szaadmo, szaadmh, szaadmm, szaadmg.",Banner Mod/ADM,,,scottse2,,,,
+"Banner Mod (D.2.4a) - SAASUMI Remove Decision and
+Decision Date",,10/7/2008  Field Level security may replace the need for this mod     Don K.                                                       This is a mod to remove certain fields on the saasumi form.  If we can use field level security this mod can go away,Banner Mod/ADM,,,Don Kidd,,,,
+"Banner Mod (D.2.4b) - SAASUMI Remove Program, Catalog Term, Degree, and Dept and adding 
+Residency and Activity Date.",,10/7/2008  Field Level security may replace the need for this mod     Don K.                                                                                        This is a mod to remove certain fields on the saasumi form.  If we can use field level security this mod can go away,Banner Mod/ADM,,,Don Kidd,,,,
+Banner Mod (D.5.40) - Student Type Update Process(SHRTYPE.pc):,,"8/26/08   This mod is obsolete     Suzanne B.                                                                          5/21/2007   REG.00365 D.5.40 - Student Type update process(shr        package REG.00365 D.5.40 - Student Type update                                                                                       10/28/2005 Assigned D number
+I approve this mod going in; I'll update the list of Banner mods that the Banner team is using when I get the d#
+
+At 12:43 PM 10/27/2005, Sam Arockiasamy wrote:
+John,
+I need a mod number from Aileen for the SHRTYPE process. Could you please approve this mod? Here is the details about the process:
+Student Type Update Process(SHRTYPE.pc):
+The Registrar Office runs this process at the end of each term to roll the SGBSTDN records from the current term to the next term. 
+If relocation of a student(from the regionals) processed prior to the end of term run of SHRTYPE (which creates general student record), regionals manually create a general student record for the relocation term and manually enter the relocation student type,  e.g. ""J"". The problem is, when the process runs for a future term it overrides any SGBSTDN records already existing for the term processing. To avoid this the Registrar Office requested us to make a ""Mod"" in the process:
+Requested MOD:  
+If a general student record already exists for the update term bypass that record and do not update the student type.",Banner Mod/REG,,,arockis,,,,
+Banner Mod (D.5.43) - Modify SGRADVR table to include advisor assignment updated time and updated by fields,,4/20/11 This mod is still used - Also the mod only effects the user not the date. As Per Susie Scott                                                                                                                                                                                                10/15/2008            Mod created for the Advising Assignment project.    Adds functionality to track when and by who the advisor was last udpated by.                                                                              1/25/2007    REG.00365 Mod D.5.43 Advisor Assign Banner 73       guraobj_SGAADVR_update.sql,Banner Mod/REG,,,Phyllis Wykoff/Tim France,,,,
+Banner Mod (D.6.1) - Accounts Payable print process,,10/8/2008 Keep as per Sarah                                                                                                                                                       This mod provides for the direct deposit of Bursar refund checks.,Banner Mod/FIN,,,Karthik?,,,,
+"Banner Mod (D.6.10) - Printing Advice number on A/P advices
+Retired 8/3/04 emgeac",,"10/9/2008    Keep as Per Sarah P.                                                                                                                                                This mod allows Bannerweb users to add or change Direct Deposit information for Payroll and Accounts Payable payments                                                                                                    
+                                                                                                                                                                                                                                                                                                         Retired 8/3/04 emgeac",Banner Mod/FIN,,,,,,,
+Banner Mod (D.7.10) - Duplicate Checks/Advices,,9/22/08     Banner 8: cannot be eliminated (emgeac).                                                                                                 Nothing in Banner prevents the use of pay check/pay advice numbers that have already been used.  Mod was created to prevent duplicate pay check/pay advice numbers.,Banner Mod/PAY,,,Amy Eldridge,,,,
+Banner Mod (D.8.12) - WebTailor - TWGKWBIS - sets the cookie domain for the SESSID cookie to .muohio.edu,,10/15/2008    This is a mod to BannerWeb and sets the cookie domain for the session id.,Banner Mod/WEB/EIS,,,Brian Holbrock,,,,
+Banner Mod (D.8.14) - Web for Finance - Shared queries,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                      This mod will block Bannerweb users from creating shared queries,Banner Mod/WEB/FIN,,,Karthik,,,,
+Banner Mod (D.8.15) - WebTailor - WAS modification to TWGKWBIS,,10/15/2008   This is a mod to BannerWeb and related to the way we sign in using WAS and BannerWeb.,Banner Mod/WEB/EIS,,,Amy Eldridge,,,,
+Banner Mod (C.2.10) - General Education Diploma Score,,"10/30/2008    Jen P. - General education diploma, Oxford undergrad admission does not need this but IT needs to check with the branch campuses                                                                                                                                                        10/15/08  Unknown Nothing in Harvest",Banner Mod/ADM,,,Don Kidd,,,,
+"Banner Mod (D.11.1) - XSFVETR0 Adding columns to exclude term of the record
+when calculating class & GPA",,10/15/2008     This is a view that was created for reporting purposes.  It holds commonly used student data.,Banner Mod/REG,,,Suzanne Brack,,,,
+Banner Mod (D.4.10) - Scholarship Data Maintenance,,9/8/2008  Maybe able to get rid of this mod. Brent will check on Banner 8                                                   Mod to give ability to SFA staff to summarize related funds together and gain a current status and thus to track the scholarship amounts available to awards.,Banner Mod/SFA,,,arockis,,,,
+Banner Mod (D.5.28) - IPEDS revisions,,10/15/2008    Undocumented changes made for IPEDS reporting provisions in 2001.,Banner Mod/REG,,,Ramon,,,,
+"Banner Mod (D.5.33) - Transfer Pre-req checking 
+(from DARS)",,6/17/2008    REG.00969 Mod D.5.33 Transfer pre-req checking fro      sfkpreq.sql                                                                                    Custom database package that contains prerequisite checking processes for registration verification.,Banner Mod/REG,,,Tyron Cohill/Suzanne,,,,
+Banner Mod (D.6.11) - Modify form FGIBDSR so user has no need to change the settings everytime,,"9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                     This mod provides for change to Banner form FGIBDSR for user settings                                                                                                                                                                                                    5/1/2006    FIN.00084 Mod D.6.11 FGIBDSR           fgibdsr.fmb4/27/06 Assigned D number
+Bill Miley - Please assign a mod number for this.  John approved it yesterday.
+Karthik Gopalasamy <Gopalsk@muohio.edu>
+I fixed FGIBDSR error . Now the user has no need to change the settings everytime. Its working fine in TEST7.",Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (A.3.24) - Reversal of Existing Charges,,"10/15/2008         Allows the Bursar to reverse existing charges on the following SCT forms tsaspay, tfamass, tsamass, tsaarev, tsadetl and tfsdetl.",Banner Mod/BUR,,,Meena K.,,,,
+Banner Mod (A.3.25) - Bursar Bill Format,,10/15/2008      This is our version of tsrcbil which is called tzrmbil and allows the Bursar to create e-bills that are viewable from our vendor CASHNet.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (A.6.19a) - Vendor Information,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                        5/8/2008  FIN.00084 Mod A.6.19a Vendor Address    guraobj_ftiiden_update.sql   ftiiden.fmb                                                                                                              This mod allows the Banner form FTIIDEN to contain a link to the vendor addresses stored in SPRADDR.,Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (A.6.19b1) - Vendor Information PO Input - Pop-up,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                            This mod provides for a form that the Purchasing department accesses in the Banner form FPIPURR in order to enter additional required information.,Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (A.6.19e&h) - On-line Purchase Order Form,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                          This mod provides for a form that displays all the information from a Purchase Order in one screen.,Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (C.2.12) - Summer Orientation System Interface,,"10/7/2008 Changed from ADM to STUAFF  as per Don Kidd                                                                                      Miami’s Summer Orientation reservation application.  It allows students to choose an orientation session, sign up their guests, identify their housing and meal needs, and update their majors, while also providing office staff with the ability to view the information or make updates, assign rooms, and produce bills and many other reports.  Consists of web pages, batch jobs, and database objects some of which update Banner tables in Student and Accounts Receivable.",Banner Mod/STUAFF,,,David Schaefer,,,,
+Banner Mod (C.3.1) - Tution Assessment (Short Term),,10/15/2008       This is a mod to SCT form sfaregs and is related to the drop codes used at the different campuses.,Banner Mod/BUR,,,arockis,,,,
+Banner Mod (C.3.11) - Cashiering Functions ARAPI,,10/15/2008  This mod deals with the process tzpcash which is the interface between CASHNet and Banner.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (C.3.17) - University Accounting Service,,10/15/2008    This mod deals with the interface between the student loan vendor ECSI and Banner.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (C.3.18) - AMS interface,,10/15/2008         This mod deals with the interface between the student loan vendor TMS and Banner.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (C.3.19a) - Lock Box Interface,,10/15/2008      This mod is a interface between lockbox transactions and Banner.,Banner Mod/BUR,,,Meena K.,,,,
+Banner Mod (C.3.19b) - Standard Format Payments,,10/15/2008      This mod deals with payments received from outside vendors and Banner.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (C.3.1b ) - Tuition Assessment (Long Term),,10/15/2008      This is related to mod C.3.1 and also involves SCT form stvrsts.  This mod could be combined with C.3.1 and could drop the second mod number C.3.1b.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (C.3.2) - Interface to ID Card System,,10/14/08     This is the process that automates how we grant permissions to ID cards based upon information in Banner.                                                                                                                                                                                     This mod deals with the Harco interface to Banner and is owned by the Bursar.,Banner Mod/BUR,,,Don Kidd,,,,
+Banner Mod (C.3.7) - Auto Payroll Deductions,,"6/12/2008 No updates after 10/3/20021/19/99 3:00 PM Generated PZAPRDD.  John added the form to the delivered BAN_PAYROLL_C  and BAN_ARSYS_C classes so that Helen Hampton, Jenice Churchman, and Ginny Layton can test the form.  Notified Ginny et al the form was ready for testing.
+This is our own process called pzaprdd and does auto payroll deduction for employee charges.",Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (C.4.1i) - Financial Aid Awards Scholarship,,9/5/2008 Will need to keep Sam        Award in Comp Base order                                                                                Mod to give the capability to package 800-1200 scholarship funds to students (incoming freshman and upper classmen)    based on a Composition Point structure.                                                                                                                             5/15/2008   SFA.01130 - C.4.1 Scholarship award processing mod   guraobj_rzepckg_update.sql rpkpz_award1.sql  RZEPCKG.pco,Banner Mod/SFA,,,Chuck Knepfle/Sam Arockaisamy,,,,
+Banner Mod (C.5.7) - Fresh Start,,9/29/08   Keep Carol J.      Nothing in Banner allows academic forgiveness.                                                                                      Banner does not have functionality to allow academic forgiveness.   This mod is to allow it.,Banner Mod/REG,,,Suzanne Brack,,,,
+Banner Mod (C.6.7) - Electronic Acceptance of Revenues,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                               This mod provides for a way to upload mass quantities of data into a Journal Voucher in Banner for departmental revenues and expenditures.,Banner Mod/FIN,,,Dale Hinrichs/Karthik,,,,
+Banner Mod (C.6.8) - Electronic Acceptance of Expenses,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                    This mod provides for a way to upload mass quantities of data into a Journal Voucher in Banner for departmental revenues and expenditures.,Banner Mod/FIN,,,Dale Hinrichs/Karthik,,,,
+Banner Mod (C.7.1) - Verification of Student Hours Enrolled,,"9/22/08     Banner 8: cannot be eliminated (emgeac).  This mod addresses a regulatory issue concerning students, hours enrolled, and FIM tax withholding.  Sungard has a new baseline version of this process (PHPSHRS).  We thought we could use it but then found that the baseline version does not take partial terms into account.  For now, we must continue to use this mod (PZRSHRS).  
+                        This mod satisfies a regulatory requirement.   Student employees must pay into medicare (FIM) and PERS (RP2) if they are not enrolled at least part time (if they are enrolled at least part time, they do not have to pay into FIM and RP2).  This process is run before each student payroll and automatically updates the student FIM and RP2 deductions according to his/her current enrollment.  Sungard introduced a baseline version of this in Banner 7; however, the baseline version does not incorporate partial terms, which Miami uses, especially in the summer.",Banner Mod/PAY,,,Amy Eldridge,,,,
+Banner Mod (D.1.11) - gjajobs.shl - Modify for passing password from a file.,,10/15/2008      Added logic to cause user id and password to be redirected to the data file and redirected to the program instead of on the command line for C programs.,Banner Mod/GEN,,,Amy Eldridge,,,,
+Banner Mod (D.1.12) - Update gjajobs for Evisions,,10/15/2008    Allows users to submit evisions jobs from banner forms.,Banner Mod/GEN,,,Meena,,,,
+Banner Mod (D.1.2) - GJAJOBS - new process type,,1/5/09    This mod is needed for SQR and Evisions. The BannerPack(Formscape) part is no longer needed.                                                                                                                                                      10/15/2008        Allows users to submit jobs using banner forms (jobsub).,Banner Mod/GEN,,,Amy Eldridge,,,,
+"Banner Mod (D.1.3) - GJAJOBS - Splitting Job Submission
+ output by system",,10/15/08       Separates jobsub output by system based on first character of process name.,Banner Mod/GEN,,,Amy Eldridge,,,,
+Banner Mod (D.1.5) - gjajobs.shl - Modify for NDPS printing,,"10/15/2008    Allows users to print using Novell Distributed Printing Services.                                                                                                                                    11/2010  Per Scott H. and Amy E., this is still being used for Banner printing, even though we are no longer using Novell.",Banner Mod/GEN,,,Amy Eldridge,,,,
+Banner Mod (D.1.6) - UTL_FILE function,,10/15/2008    Function that gathers database parameters to correctly output data to the correct utl_file folder.,Banner Mod/GEN,,,Paul Glotzbecker,,,,
+Banner Mod (D.1.7) - Jobsub through ECS,,10/15/2008     Allows users to submit banner jobsub jobs from EM.,Banner Mod/GEN,,,Paul Glotzbecker,,,,
+"Banner Mod (D.1.8) - GOREMAL - 
+Add and Maintain UniqueID",,10/15/2008       Populates GOREMAL table with current unique id’s for creating email addresses.,Banner Mod/GEN,,,Paul Glotzbecker,,,,
+Banner Mod (D.1.9) - Keep .prt files for sqr reports in jobsub (gjajobs.shl),,10/15/2008        Keeps .prt files for sqr reports in jobsub.,Banner Mod/GEN,,,Amy Eldridge,,,,
+Banner Mod (D.10.1) - Duplicate PIDM resolution scripts,,6/21/2000 Assigned D number,Banner Mod/ALUM,,,Premila,,,,
+Banner Mod (D.10.2) - Advancement ID,,"09/5/2008  This process runs every night in EM and needs to be tested.                                                              “Advancement ID” has been created in Banner for all constituents of the Advancement division for use in mailings which reduces mailing costs or for other identification without using Banner ID.
+This mod created Advancement IDs for all existing SPRIDEN records for all Advancement constituents as “previous IDs” in the SPRIDEN record.",Banner Mod/ALUM,,,Premila?,,,,
+Banner Mod (D.10.3) - People attending an event,,9/5/2008  This will go away with new functinality in Banner                                                                                          This Mod allows University Advancement to enter guests to various events without having to assign them to Spriden ID numbers using GEAATTD form.,Banner Mod/ALUM,,,"Jerry W./Tim France
+Premila?",,,,
+Banner Mod (D.10.4) - Temporary mod for AGPGANL,,"5/31/11 - Bill has approve for this tempory mod to be approved.                                                              Alumni file AGPGANL.  It is for version Alumni version 8.2.  It corrects a problem with the job where if a number is greater than a thousand, instead of numbers it displays ###D##.  The mod we received from Sungaurd is the following:Changed format mask for tot_1_2_count and tot_2_1_count from 99D990 to 99G990.  This will be corrected in patch 8.4.2, but we are not sure when that patch will be released.  Therefore we need to put this short term mod into place.",Banner Mod/ALUM,,,Premila?,,,,
+Banner Mod (D.12.1) - Clean Address,,"6/4/2008    ITS.000969 D.12.1 Clean Address - Banner 7.4                                             saaetbl, shadipl,sharqtc,goamtch,soasbgi,saaquik,sraquik
+spaiden,ppaiden,apaiden,foaiden,ftmvend,,ftmagcy,ftmcust,ftmfmgr,spaemrg                                                                                                                                               A general mod, this was created to keep fine grained access control (FGAC) settings up to date in Banner.  FGAC is used to control access to data fields in Banner.  We can set FGAC by security class and this trigger will keep the FGAC settings up to date as Banner users are moved in and out of the security class. Without this trigger, we would have to constantly audit the security classes and modify the FGAC settings.",Banner Mod/GEN,,,Don Kidd,,,,
+Banner Mod (D.13.1) - Delete Trigger,,10/15/2008    Keep as per Dan Johnson                                                                                                                                     Allows Miami to recover any deleted document from the imaging system.                                                                                                         10/19/2007     zxb_audit.sql           Then run: xtz_ae_audit_insert_row.sql                                        09/22/2007 Approved by Alan Ferrenberg. This trigger will capture data needed to restore an image when the image is deleted. Trigger ( xtz_ae_audit_insert_row) Table (otgmgr.zxb_audit),Banner Mod/BDMS,,,Dan Johnson,None,Oracle,sql,EIS
+Banner Mod (D.15.1) - Flex Reg Procedure,,"8/2/10 - Approve by Bil Miley Temporary Mod for Flexible Registrartion                                                         In Test8 have modified the p_create_person procedure in the sfpkpers1.ql file in the Flex Reg 3.0.1 version. 
+This is due to defect 1-A7E5YL that prevents new persons from being created in Flex Reg.
+The defect is fixed in 3.1.1 version which requires Banner Student and General 8.2.     The modification will need to be applied until we are able to upgrade to 3.1.1.",Banner Mod/LLL,,,Suzanne Brack,,,,
+Banner Mod (D.15.2) - Flex Reg Fee Assessment,,"9/17/10 - Bill Approved this mod.                                                   The mod is a cloned version of the Bursar Regular Fee Assessment process.    sfkfees is the original package name and the cloned version is called flex_sfkfees.
+The purpose for the modification is so the only Flexible Registration courses are selected for fee assessment at the time of the registration though the Flexible Registration application.      
+The objects associated with the mod are 
+flex_sfkfees
+sffkmreg    (This is the Flexible Registration package that calls the process.   It needed to be modified to call flex_sfkfees instead of sfkfees).",Banner Mod/LLL,,,Suzanne Brack,,,,
+Banner Mod (D.15.3) - Flex Reg Time Ticket,,"4/29/11 Obsolete.  Sungard added feature to disregard time ticketing.10/4/10 - Bill has approve this mod                                                                                                                                                       I need approval for a modification to a procedure used for Flexible Registration.    Without the modification, Flexible Registration uses time ticket information to determine a student’s status to register.   If the student is new – then it assigns a time ticket to them.    This does not work with Miami’s business process of creating and the use of time ticketing.
+On the Commons I see that there is one other school that has the same problem.    I am going to work towards getting an RFP to make time ticketing use an option for Flexible Registration.
+
+For now, I need to modify the time ticketing in Flexible Registration. - Suzanne Brack",Banner Mod/LLL,,,Suzanne Brack,,,,
+Banner Mod (D.15.4) - Flex Reg Prior SGBSTDN record,,"12/6/10 - Bill has approved this mod.                                                                                                                                                     I am currently working on another mod for Flex Reg.
+This mod is needed because of the way Miami stores prior sgbstdn records.
+Currently  records are rolled each term for students who are actively enrolled.   All previous records remain with the status of “AS” for active.    In order for Flexible Registration to re-admit prior students, it must recognize they have an inactive record for a previous term and it will re-admit them and build a record for a NC student for the term they are registering for through Flex Reg.        This will not occur without a modification to recognize previous records as though they are not active.
+
+The Registrar Office (Carol Jones) said they would like to change their business practice to deactive prior records, however this is a major undertaking and it will be quite some time before they can do so.    
+I am requesting a mod until this can be done.",Banner Mod/LLL,,,Suzanne Brack,,,,
+Banner Mod (D.16.1) - A page in ESS that allows employees to opt in or out of a printed W2,,"7/26/10 Approved by Bill Miley                                                                                                                                      Every year, we open up a page in ESS that allows employees to opt in or out of a printed W2.  The page is “bare bones” and has caused confusion to employees in the past. 
+
+To alleviate this confusion, I’d like to mod the page: add logic to display the employee’s current selection (printed or electronic W2) add an email confirmation upon submit add a message on the ESS screen that their selection has been recorded.
+This will only take me 8 hours and maintenance during upgrades will be minimal (especially considering the page is only live a few months out of the year).",Banner Mod/WEB/PAY,,,Amy Eldridge,,,,
+Banner Mod (D.2.2) - Application Status indicator,,10/7/2008 Keep  as per Don Kidd                                                                                                                                               6/30/99 Assigned D number,Banner Mod/ADM,,,Don Kidd,,,,
+Banner Mod (D.3.1) - Bursar Network Service Fee,,10/15/2008      This mod deals with the Bursar network service fee.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.10) - Update Campus of the Student,,10/15/2008    This is a mod to sfaregs to show the campus of the student.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.11) - Set RS code and cancel Health Ins.,,10/15/2008    This mod sets the RS response indicator for students that tell the Bursar they are attending Miami this semester.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.12) - Cancel classes for unpaid students,,10/15/2008     Mod used to cancel classes for unpaid students based on the student response indicator.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.15) - Emergency Contact Review,,10/15/2008     This is a mod to BannerWeb to prompt students for emergency contact information.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.16) - ePromise form,,10/15/2008     This is a mod to Bannerweb to prompt students to complete an ePromise form saying they will pay their charges from Miami.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.2) - Paid Status,,10/15/2008     This mod sets the paid status indicator for students.,Banner Mod/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.3.5) - Refunding for housing/meal plans,,10/15/2008    This mod is related to refunding for housing/meal plans.,Banner Mod/BUR,,,Brian Holbrock,,,,
+"Banner Mod (D.4.12) - Increase the maximum ""heap"" size. (Change the ""Xmx"" value to 512 (from 128) in the rerim05 shell script. The ""heap size"" values are hard-coded in the shell script. )",,"9/5/2008 Will need to keep Sam                                             
+Modified RERIMxx(COD Import process), REREXxx (COD export process) and RERIM2E processes to use production 
+machine name and port number",Banner Mod/SFA,,,arockis,,,,
+Banner Mod (D.4.2) - Scholarship Roll process,,9/5/2008 Will need to keep Sam     Job Sub Process    -                                                                                                Process to roll scholarships awarded by Financial Aid from one aid year to the next based on criteria predefined by the SFA office,Banner Mod/SFA,,,arockis,,,SQR,
+Banner Mod (D.4.4) - Ohio Instructional Grant Award Loading Process,,"9/5/2008 Will need to keep Sam                It is 3 SQR jobs                                             Ohio Instructional Grant Award Loading processes. Includes three processes:
+                                a) Job to load the Ohio College Opportunity Grant (OCOG) data into Banner to implement Miami’s state granting                                               matching program b) Job to export the OIG paid data from Banner into the OBOR defined file to implement Miami’s state grant matching program c) Job to award estimated OCOG, to award the OCOG match (from Miami Funds) and to audit the OCOG match awards to ensure the OCOG match awarded properly.",Banner Mod/SFA,,,arockis,,,SQR,
+Banner Mod (D.4.5) - Financial Aid Competition Points Update Program,,9/5/2008 Will need to keep Sam        SQR Job                                                                                                                     Financial Aid Competition Points Update Program.  Used to rank scholarship applicants based on Miami’s general scholarship competition criteria.,Banner Mod/SFA,,,arockis,,,SQR,
+Banner Mod (D.4.7) - Year In College Update Script,,"9/5/2008 Will need to keep Sam      Job                                                                            
+Year in college update script.  Used to project coming year grade level to accurately determine loan award level.",Banner Mod/SFA,,,arockis,,,SQR,
+Banner Mod (D.5.13) - Financial Aid view of Student data,,10/8/2008   Keep as per Brent                                                                                                                                                                       Financial Aid view to display student and applicant data by aid year. This view is heavily used in so many SFA Banner rules.,Banner Mod/SFA/REG,,,Suzanne Brack,,,,
+Banner Mod (D.5.18) - Modify shrtrtc.pc for Official Transcript,,"9/5/2008 Will need to keep       Suzanne                       
+Official transcript modified to conform to Registrar Office criteria in which they wish to present the transcript.",Banner Mod/REG,,,Suzanne Brack,,,,
+"Banner Mod (D.5.19) - Roll student activities from one 
+term to next",,9/29/08   Keep Carol J.             Roll athlete info from 1 term to the next                                                                                          Banner job designed to roll student activities from one term to the next.,Banner Mod/STUAFF,,,Suzanne Brack,,,,
+Banner Mod (D.5.20) - Immunization holds,,"9/5/2008 Will need to keep     Suzanne     
+Places a hold on new student records to prevent studetns fom registering for classes before showing a record of immunization.   Applies to all first time degree seeking and transfer students at the Oxford Campus.",Banner Mod/REG,,,Ramon,,,,
+Banner Mod (D.5.21) - Advance placement test loading,,10/15/2008  Banner job processes designed to load Advanced Placement test scores into Banner.,Banner Mod/REG,,,David Schaefer,,,,
+Banner Mod (D.5.23) - DARS Web at Miami,,9/26/2000 Assigned D number,Banner Mod/REG,,,Tyron Cohill,,,,
+Banner Mod (D.5.26) - DARS Batch Process Population Selection,,9/29/08   Keep Carol J.                                                                                                        11/16/2000 Installed in DEV4                                                                                        10/5/2000 Assigned D number,Banner Mod/REG,,,Tyron Cohill,,,,
+Banner Mod (D.5.29) - Changing Prebusiness majors to Business majors,,9/29/08   Keep Carol J.                                                                                                        Banner job sub created to roll general student records to a new term and updates pre-majors to new majors. It selects the studetns to roll from the DARS analysis table.,Banner Mod/REG,,,Munisws,,,,
+Banner Mod (D.5.3) - Advisor Hold for First Year Students,,9/29/08   Keep Carol J.                                                                                                                                                             Inserts advising holds on new student records to prevent students from registering for classes before meeting with their advisor.   This applies to all first time degree-seeking students and all campuses and transfer students at the regional campuses of Hamilton and Middletown.,Banner Mod/REG,,,Ramon,,,,
+Banner Mod (D.5.30) - Roll student attributes,,"9/29/08   Keep Carol J.          Create Attributes from Admission                                                                         Banner job sub created to roll student attributes for Honors, Scholastic Enhancement, Oxford Scholars and Commuters from Admission to Registrar.",Banner Mod/ADM/REG,,,Suzanne Brack,,,,
+Banner Mod (D.5.31) - Degree Substitution for DARS,,9/29/08   Keep Carol J.                                                                                                        8/1/2001 Assigned D number,Banner Mod/REG,,,Tyron Cohill,,,,
+Banner Mod (D.5.35) - Offcampus Time Ticket,,9/29/08   Keep Carol J.       Time ticket for brach campus                                                                                 Automatically mass creates time tickets that are required for Registration.,Banner Mod/REG,,,Suzanne Brack,,,,
+"Banner Mod (D.5.37) - Final Grade changes
+We are modifying a trigger to log the PIDM of the whoever enters a grade or changes a grade via the web.",,"9/5/2008 Will need to keep    Suzanne    Can put unique ID in                                                                                  
+This mod will update the Student Course Registration Archive table with the unique ID (instead of WWW_USER) of the user updating/entering grades in Bannerweb.",Banner Mod/REG,,,Suzanne Brack,,,,
+"Banner Mod (D.5.44) - Hide the ""Apply to Graduate” button to avoid risk of being used inadvertently.",,6/22/2009       Carol Jones is requesting the new “Apply to Graduate” button on SGASTDN be hidden. I checked the documentation and cannot find any way of hiding the button other than modifying the forms.,Banner Mod/REG,,,scottse2,,,,
+"Banner Mod (D.5.45) - Hide the ""Apply to Graduate” button to avoid risk of being used inadvertently.",,6/22/2009       Carol Jones is requesting the new “Apply to Graduate” button on SFAREGS be hidden. I checked the documentation and cannot find any way of hiding the button other than modifying the forms.,Banner Mod/REG,,,,,,,
+Banner Mod (D.5.46) - SHRTRCE - Trigger on this banner form.,,"10/16/09   Bill M.  Approved  -  Tyron Cohill is requesting a trigger on the SHRTRCE banner form. This trigger is something I wrote to clean up trailing spaces on the shrtrce_crse_numb field.  These spaces are created by the DARS transfer bridge program.  There was a mod on the banner pre-requisite program to trim these spaces as it made the checks.  This mod was not applied for Banner 8 and the pre-req checking for the transfer courses brought over by the bridge did not work.  In lieu of reapplying the mod to the banner program, I wrote this trigger to trim the spaces on all inserts and updates for that field.",Banner Mod/REG,,,,,,,
+Banner Mod (D.5.47) - SFAREGS,,"10/22/09 Bill M. Approved - Suzanne B. The Registrar Office is requesting an additional modification to SFAREGS.    SFAREGS has a field displayed that shows the source of the maximum hours displayed.   The display is a description that is hard coded based on the field in the sfbetrm table.       There are currently one character fields in sfbetrm that represent specific descriptions of the source.   The
+Code in SFAREGS form reads as follows:
+CASE :SFBETRM_MAXH_SRCE_CDE 
+     WHEN 'A' THEN          :MAXH_SRCE_CDE := G$_NLS.GET('X','FORM','ASTD');
+     WHEN 'C' THEN          :MAXH_SRCE_CDE := G$_NLS.GET('X','FORM','CAST');
+     WHEN 'M' THEN          :MAXH_SRCE_CDE := G$_NLS.GET('X','FORM','MHRS');
+     WHEN 'U' THEN          :MAXH_SRCE_CDE := G$_NLS.GET('X','FORM','USER');
+     ELSE                   NULL;
+   END CASE;  The Registrar Office would like to add another source code to the sfbetrm table when the maximum hours are updated with their SZPMXHR hour job sub process.   That code would be “R” and the modification in the form would be to the code above to display “REGJ”.",Banner Mod/REG,,,Suzanne B.,,,,
+Banner Mod (D.5.48) - SFRTMST,,"2/24/11 Bill M. Approved  - Suzanne B.  - A Mod for NSC process due to non-credit courses in Banner.   Currently, the NSC process SFRTMST will not assign a time status to students with non-credit courses only and will also be picked up in the extract process (SFRNSLC) and display with an error.    The request is to modify both processes so that they only select students with UG and GR type.   The non-credit only students have CR type.",Banner Mod/REG,,,Suzanne B.,,,,
+Banner Mod (D.5.49) - National Student Clearinghouse,,"6/27/11   Bill M. Approved  - Suzanne B.  - The National Student Clearinghouse extract currently includes all student types in the extract.
+A modification is needed to exclude non-credit only students from the extract.    Students who register through Flexible Registration who are not enrolled in any credit courses will be excluded with the modification.    
+I hope to see this as a change Sungard makes in the future, but until then a modification is needed.",Banner Mod/REG,,,Suzanne B.,,,,
+Banner Mod (D.5.6) - Undecided Program code,,"9/29/08   Keep Carol J.                                                                                                                                                              Database trigger created for the purpose of changing all records entered with ""UNDECIDED' program code that will be used by the Registrar Office to program code = 'AB', degree code = '118' and college code = 'AS'.  Works in conjuction with the update/entry trigger.",Banner Mod/REG,,,Suzanne Brack,,,,
+Banner Mod (D.6.12) - Online Requisitions 1099 Direct Pay project(164),,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                       This mod provides for the Bannerweb Online Direct Pay Request functionality.,Banner Mod/WEB/FIN,,,Karthik,,,,
+Banner Mod (D.6.14) - Add Direct Deposit Subscription to Personal Information,,10/9/2008    Keep Per Sarah P.                                                                                                                                                   This mod allows Bannerweb users to add or change Direct Deposit information for Payroll and Accounts Payable payments                                                                                                                                                    2/9/09   This mod is no longer used by HR Per Amy.,Banner Mod/WEB/FIN,,,Karthik,,,,
+Banner Mod (D.6.15) - Table level trigger placed on fpbreqh to track down timestamp and actual user that’s causing this issue,,9/30/09    Approved by Bill M.         The C program will be modified to find one of multiple causes that’s triggering the indicator changes. There will also be a Table level trigger placed on fpbreqh to track down timestamp and actual user that’s causing this issue. This trigger is needed to cover possible situations where the reason is not part of posting process.,Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (D.6.16) - SunGard API  FB_ACCOUNTING_ELEMENT_RULES,,"9/30/2010         Approved by Bill Miley                                                             Miami BuyWay (SciQuest) and SunGard Banner interfaces each other to check credentials and FOAPAL strings. Miami departments has been traditionally using Index codes which populates default FOAPAL to process transaction. However SunGard middleware that interface with SciQuest only messages basic index        code info instead of including default FOAPALS. This causes Purchasing, Controller Office and SciQuest to identify and manually fix these values in BuyWay everytime an Index code is created in Banner. Obviously such changes are time consuming and prone to errors. This mod will change the way SunGard middleware reacts on Index relations and will send all the required info(Fund,orgn,prog) in addition to basic messaging that transfers.",Banner Mod/FIN,,,Karthik/Karthik,,,,
+Banner Mod (D.6.2) - Purchase Order Print Program,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                               This process prints Purchase order vendor information input data.,Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (D.6.4) - Check reconciliation - load seq file to Banner table,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                       This mod provides a way to send and receive bank reconciliation information.,Banner Mod/FIN,,,Karthik,,,,
+Banner Mod (D.6.7) - Accounts Payable Direct Deposit,,1/24/2007   FIN.00365 D.6.7 Accounts Payable Direct Deposit   fapdird.shl                          This mod provides for the direct deposit of Bursar refund checks.,Banner Mod/FIN,,,,,,,
+Banner Mod (D.7.14) - WorkFlow(WF) trigger & procedure EPAF,,9/22/08    Banner 8:  cannot be eliminted (emgeac).                                                                                                                                                                                                                                                                 Created trigger so LSJ bonus Workflow would launch when an LSJ bonus EPAF was applied.  Note any WF that needs to launch automatically due to a Banner event will need a similar trigger and any WF that updates data will need stored procedures created.,Banner Mod/HR,,,Ruth Groom/Amy Eldridge,,,,
+Banner Mod (D.7.15) - Open Enrollment,,"9/22/08    Banner 8:  cannot be eliminted (emgeac).                                                                                                                                                                                                This is the benefits open enrollment system in Employee Self Service.  The baseline version is cumbersome, confusing and inefficient and in some ways caused more work than paper open enrollment.",Banner Mod/HR,,,Ruth Groom/Amy Eldridge,,,,
+Banner Mod (D.7.16) - EPAF,,9/22/08    Banner 8:  cannot be eliminted (emgeac).                                                                                               HR used EPAFs to automate the re-hiring of part time faculty and needed the EPAF comment field to include prompts of needed information from the EPAF originator.,Banner Mod/HR,,,HR Ruth Groom/Janet Cox/Amy Eldridge,,,,
+Banner Mod (D.7.17) - K1 Address update,,"9/22/08    Banner 8:  cannot be eliminted (emgeac).                                                                                               4/21/2008 Assigned D number for Amy Eldridge approve by Bill Miley.    HR and Academic Personnel would like a custom ESS page built so employees can update their K1 address.   Because of the distinct structure of the K1 address, the normal address update page will not work for this task.                                                                                                                                                                                                                                                   This page is one step in eliminating the directory questionnaire forms HR sends out each year.  This job has been scheduled for this quarter.                                                                                                                                                                                                                                                                                                         This page allows employees to update their campus work address (K1).  HR and Academic Personnel have strict standards for K1 addresses so we could not simply present free text fields to the employees.  Instead, we present pull down menus so the employee can select his/her campus, department, and building, and then the page logic builds the address using HR standards.",Banner Mod/HR,,,HR/Amy Eldridge,,,,
+Banner Mod (D.7.18) - Make W4 Card Updateable view ESS,,"3/17/2009   The baseline version of the W4 card only allows update to the federal withholding.  We need the page to work similar to a paper W4 card, gathering info about federal, state and school district taxes on one page and providing clear, concise instructions to the employee so they fully understand the changes they are making.                                                                                                                                             3/17/09   Bill Has approve this Mod.",Banner Mod/PAY,,,Amy Eldridge,,,,
+Banner Mod (D.7.19) - Make Payroll Direct Deposit Updateable via ESS,,"3/17/2009    The baseline version of the direct deposit page is confusing to the employee and does not enforce certain rules critical to successful payroll processing.  For example, all payroll DD records must have the last priority as “remaining” and the system does not enforce this.  Errors made to DD records                                                                                                                                                                         3/17/09   Bill Has approve this Mod.",Banner Mod/PAY,,,Amy Eldridge,,,,
+"Banner Mod (D.7.21) - This will allow new hires to select their benefits via a system in ESS, similar to benefits open enrollment.",,"1/4/2010  Approve by Bill 12/11/09              This will allow new hires to select their benefits via a system in ESS, similar to benefits open enrollment.   Amy will be working in this it is job 1475.",Banner Mod/HR,,,Amy Eldridge,,,,
+Banner Mod (D.7.22) - Tuition Fee waivers by using Bennifits Deduction codes.,,"1/28/10 Approve by Bill 1/28/10                  This will allow  us to replace current manual method of submitting and approving tuition fee waivers  by using Banner Bennifts/Deduction codes (with zero amounts).   Banner Web has base line screen for employees to enter deductions, but we need more control and better user friendliness.                      Project 00989",Banner Mod/HR,,,Amy Eldridge,,,,
+Banner Mod (D.7.24) - 2062 Benefit Statement (total comp statement) in ESS,,"7/28/10 Approved by Bill Miley                                                                                                                                       2062 Benefit Statement (Total Comp Statement) in ESS 
+In past years, we have done a benefit statement (or total compensation statement). We've not done one in several years. They were formerly done on paper. We'd like to build a total compensation module in ESS, presenting an employee's total compensation (salary and benefits) by year. So the employee could select 2009 and see his/her total compensation (salary and benefits) for 2009. This would be viewable to the employee all year long. There is a Banner baseline version of a benefit statement, but it does not meet our needs.                                                                                                                            Maintenance during upgrades will be minimal, about 8 hours.",Banner Mod/HR,,,Amy Eldridge,,,,
+Banner Mod (D.7.25) -  HR Premium Pay for Hourly employees - PDPLIFE,,"3/15/10 Approved by Bill Miley                                                                                                                                            The baseline process PDPLIFE is run before every payroll and calculates life insurance values based on the employee’s annual salary (the employee LIF deductions are automatically updated).  During testing, HR discovered that PDPLIFE does not recognize premium pay when calculating life insurance.         As I see it, we have two options.  One, create a process or WF that could be used to update and maintain life insurance values for our premium pay employees.  Two, apply a mod to PDPLIFE so it recognizes premium pay.     4-6 hours to do after each upgrade.  
+I believe the best solution for Miami is the latter, apply a mod to PDPLIFE so it recognizes premium pay.  Creating a process to update life insurance values for our premium pay employees just gives HR one more thing to think about, one more item for their task list each payroll.  We’re supposed to be finding ways to make employee processing more efficient and I think changing PDPLIFE is the more efficient option.",Banner Mod/HR,,,Amy Eldridge,,,,
+Banner Mod (D.7.5) - Direct Deposit FTP/Notification,,"9/22/08     Banner 8: cannot be eliminated (emgeac).                                                                                                      Modified process that creates payroll direct deposit tape for bank.  Added archive functionality, PGP encryption and payroll listserv notification (process success/failure).",Banner Mod/PAY,,,Amy Eldridge,,,,
+Banner Mod (D.7.9) - Employee Nightly Extract,,"9/22/08     Banner 8: cannot be eliminated (emgeac).                                                                                                      More of an IT mod than an PAY mod (arguably not a mod at all), this process is used to extract a formatted text file of employee data every night for use in maintaining account generation, electronic directory data, and  listserv generation.",Banner Mod/PAY,,,Amy Eldridge,,,,
+Banner Mod (D.8.11) - FacWeb Advisor Access to Transcripts aka D.5.25 Advisor Workaround,,9/29/08   Keep Carol J.   Allows advisor to run Da5rs for anyone                                                                                           Gives Faculty Advisor Access to Transcripts in BannerWeb.,Banner Mod/WEB/REG,,,arockis,,,,
+Banner Mod (D.8.13) - StuWeb - InfiNET - 3DES encryption,,10/15/2008    This is a mod to BannerWeb student account summary and adds links to CASHNet so students can make payments on their accounts.,Banner Mod/WEB/BUR,,,Brian Holbrock,,,,
+Banner Mod (D.8.18) - Add Name to pay stub in Employee SS package bwpkhstb,,"9/23/08   Banner 8: Cannot eliminate this mod (Emgeac).          Name Plus Number & date at the top of the stub.                                                                                                                                                                 
+The baseline version of the pay stub (check advice) in Employee Self Service does not include the employee's name.   This can make a printed copy of the pay stub rather worthless if the employee is using it for financial transactions (such as loans).  We applied a mod to the page so the employee's name will display.",Banner Mod/WEB/HR,,,Amy Eldridge,,,,
+"Banner Mod (D.8.24) - Remove the advisor plus number and name from baseline Banner web advising transcripts.
+Per Hina 10/11/05:
+Just turning off visibility flag in the style sheet for a particular procedure (P_Viewtran) which displays student detailed transcript did the trick.",,"10/10/2005 This was accomplished by Scott changing a setting on the style sheet.  I am leaving it in the mod list to make sure the setting gets changed for future versions of Banner. AE
+Looks like we will not need a MOD number for this change. Removal of Advisor plus number from baseline web advising transcript looked like a major change  in the beginning. Finally, it turned out a very simple change. Just turning off visibility flag in the style sheet for a particular procedure (P_Viewtran) which displays student detailed transcript did the trick. Thank you Scott for making the change and saving me lot of time.  Hina                                      9/22/2005 Assigned D number (Phyllis)
+John, as we discussed earlier this week, we need a mod to Banner web to remove the advisor plus number and name from baseline Banner web advising transcripts.",Banner Mod/WEB/REG,,,Suzanne Brack,,,,
+Banner Mod (D.8.25) - The mod will cause the leave reporting default month to be the previous month for Employe SS.,,"9/22/08 Cannot be eliminated for Banner 8 Per Amy E.                                                                                               Displays the wrong leave report date. It should show last months not current month.                                                                                                                           When employee's access the LR system, the default month displayed is the current month, but the employee will be submitting leave for the previous month.  This caused many employees to submit leave for the wrong month, causing extra work for HR.  We applied a mod to the page so the default month displayed is the previous month.",Banner Mod/WEB/HR,,,Amy Eldridge,,,,
+Banner Mod (D.8.26) - Remove grade code validation from FACWEB package body for package BWLKFFGD.  Script name is bwlkffg1.sql.,,"9/29/08   Keep Carol J.                                                                                                       Modification to allow grades to display correctly for faculty entering grades online.
+Banner baseline logic does not accommodate courses associated with with specific grade types.
+It shows all grades regardless.",Banner Mod/WEB/REG,,,Suzanne Brack,,,,
+Banner Mod (D.8.27) - Online Requistion for showing index codes for Finance Self Service,,9/23/08  Banner 8: Cannot be eliminated  Karthik                                                                                                       This mod allows the Bannerweb Finance Online Requisition form to keep the index code visible after the document is validated/completed.,Banner Mod/WEB/FIN,,,Karthik,,,,
+"Banner Mod (D.8.28) - Finance Self Service: bkfktran,bwfkproc,bwfztran",,"3/23/11  Bill has approved this Mod                                                                                                                            The sungard delivered self service design was restrictive to allow only upto 5 line items of transfers Also the code look ups were pulling inactivated FOAPAL strings causing confused to post transactions on them. This mod would allow JV requestor to post upto 15 line item of transfers like an excel spreadsheet and would display only active FOAPALS in the code look up. There is also cloned version of this design for departmental transfers that follow similar design with more features such as populating original document #,original date,additional comments and restricting JV posting on salary and benefit accounts.",Banner Mod/WEB/FIN,,,Karthik,,,,
+Banner Mod (D.8.29) - Create an oracle form for HR and PA data - HRAPPMGR.PS_PERSON,,9/3/2010 - Bill Approved this mod.                                                                                                                                                           This  Oracle form will display data from HRAPPMGR.PS_Person table and also let the user to modify PositionID column. This will be used by the new hire WF that is being developed.,Banner Mod/HR,,,Kandasm,,,,
+Banner Mod (D.8.30) - mod to twbkwbis           part of the University Portal Product Selection and Implementation,,"9/7/2011  Bill has approve this mod.                                                                    Banner Self Service 8.x use CAS for authentication.  It uses the Yale PL/SQL CAS Client, a custom WebTailor package, and a small mod to twbkwbis. It maps the username from CAS to the GOBTPAC_EXTERNAL_USER field. Keeping the GOBTPAC_EXTERNAL_USER field in sync with your LDAP directory, or whatever authentication source your CAS instance uses, is up to your institution.",Banner Mod/WEB/EIS,,,Amy Eldridge,,,,
+Banner Mod (D.8.8) - Force students to confirm their LO address,,10/15/2008    This is a mod to BannerWeb to prompt students to provide their local address.,Banner Mod/WEB/BUR,,,Munisws,,,,
+Banner Mod (D.8.9) - Verify Student email addresses,,10/15/2008    This is a mod to BannerWeb to prompt students for an email address.  Student can use this to forward email to another email account or verify they use the Miami account to read email.,Banner Mod/WEB/BUR,,,,,,,

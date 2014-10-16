@@ -1,0 +1,4 @@
+<?php
+	http_send_content_type("text/csv");
+	http_send_file("Applications.csv");
+?>

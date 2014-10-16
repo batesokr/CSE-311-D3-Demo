@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="D3/Bootstrap demo for CSE 311">
+    <meta name="author" content="Keith Batesole">
+
+    <title>CSE 311 D3 Demos</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Local CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="chart.css">
+   
+    <!-- JQuery used for AJAX -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Papa Parse, for pasing CSV files -->
+    <script src="PapaParse/papaparse.min.js"></script>
+
+    <!-- D3 Library for data-driven graphs -->
+    <script src="d3.min.js" charset="utf-8"></script>
+
+    <!-- Local JavaScript file -->
+    <script src="parse.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <a class="navbar-brand" href="#">CSE 311 D3 Demo</a>
+	</div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+	<div class="col-sm-3 col-md-2 sidebar">
+	  <ul class="nav nav-sidebar">
+	  </ul>
+	</div>
+	<div class="col-sm-9 col-md-10 col-md-offset-2 main">
+	  <h1 class="page-header">Current IT Applications at Miami University</h1>
+	  <svg class="chart"></svg>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
