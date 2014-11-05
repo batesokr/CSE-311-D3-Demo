@@ -1,5 +1,5 @@
 <?php
-	$file = 'Miami Application Portfolio.csv';
+	$file = 'data/'.$_POST['data'];
 	if (file_exists($file)) {
 		header('Content-Description: File Transfer');
 		header('Content-Type: application/oclet-stream');

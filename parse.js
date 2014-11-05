@@ -1,15 +1,15 @@
     var owner = 'Owner/Category';
     var type = 'Type';
 
-var columns = ['Type', 'Owner/Category', 'Functional Contact', 'SME(s)', 'Servers', 'DBMS', 'Programming Language',
-	       'Vendor Name/Contact'];
+//var columns = ['Type', 'Owner/Category', 'Functional Contact', 'SME(s)', 'Servers', 'DBMS', 'Programming Language',
+//	       'Vendor Name/Contact'];
+var columns = ['Category', 'Service Provider', 'Hosting'];
+
 var histogram = {};
 for(i in columns){histogram[columns[i]] = {};}
 
 // Use AJAX to get the CSV file
 $.get("get_csv.php", function(csv_file) {
-    // Associate array to keep track of categories
-
     // Parse the CSV file step by step
     Papa.parse(csv_file, {
 	header: true,
@@ -65,25 +65,67 @@ function update_histogram(row) {
     }
 }
 
+function merge_sort_copy(A, B, begin, end) {
+    for(var i = begin; i < end; i++) {
+	A[i] = B[i];
+    }
+}
+
+function merge_sort_combine(A, begin, middle, end, B, histogram) {
+    var left = begin;
+    var right = middle+1;
+    for(var j = begin; j <= end; j++) {
+	if(left <= middle && (right > end || histogram[A[left]] >= histogram[A[right]])) {
+	    B[j] = A[left];
+	    left++;
+	} else {
+	    B[j] = A[right];
+	    right++;
+	}
+    }
+}
+
+function merge_sort_split(A, begin, end, B, histogram) {
+    if((end+1) - (begin+1) == 0) return;
+
+    var middle = Math.floor((end + begin) / 2.0);
+    merge_sort_split(A, begin, middle, B, histogram);
+    merge_sort_split(A, middle+1, end, B, histogram);
+    merge_sort_combine(A, begin, middle, end, B, histogram);
+    merge_sort_copy(A, B, begin, end);
+}
+
+function merge_sort(A, B, histogram) {
+    return merge_sort_split(A, 0, A.length-1, B, histogram);
+}
+
+function get_sorted_keys(histogram) {
+    // Obtain the keys
+    var keys = [];
+    $.each(histogram, function(key) { keys.push(key); });   
+
+    // Perform a simple merge sort
+    var sorted_keys = [];
+    sorted_keys.length = keys.length;
+    merge_sort(keys, sorted_keys, histogram);
+    return sorted_keys;
+}
 
 var margin, width, height, x, y, xAxis, yAxis, x_max;
 // Creates a chart based of a histogram
 function create_bar_chart(chart_dom, histogram) {
     // Obtain the keys and the maximum value
-    var x_keys = [];
-    $.each(histogram, function(key) { x_keys.push(key); });   
+    var x_keys = get_sorted_keys(histogram);
     x_max = d3.max(x_keys, function(key) { return histogram[key]; });
     x_max = Math.ceil(x_max/10)*10;
-
-    console.log(x_max);
 
     // parameters used for creation of the chart
     var margin = {top: 30, 
 		  right: 100, 
 		  bottom: 0, 
 		  left: 10};    
-    width = x_max * Math.sqrt(10000/x_max) - margin.right - margin.left;
-    var height = x_keys.length * 15 - margin.top - margin.bottom;
+    var width = x_max * Math.sqrt(10000/x_max) - margin.right - margin.left;
+    var height = x_keys.length * Math.sqrt(10000/x_keys.length) - margin.top - margin.bottom;
 
     // The x and y domain/range
     x = d3.scale.linear()
