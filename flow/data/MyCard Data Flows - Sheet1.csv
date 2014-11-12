@@ -1,0 +1,21 @@
+From,To,Purpose,Type,Protocol
+CommonApp,Slate,CommonApp sends application data to Slate,???,???
+Slate,Banner,Slate sends accepted student information to Banner,???,???
+Banner,MyCard,MyCard retrieves accepted student information from Banner,Batch,Oracle OCI
+MyCard MU Confirmation,Cashnet,MyCard sends user to Cashnet for payment processing and receives response,Realtime,URL/HTTP
+Cashnet,Banner,Payment is recorded in Banner and confirmation flag is set,Realtime,???
+MyCard Housing Contract,Banner,MyCard sends billing information to Banner,Batch,Shared file space transfer
+MyCard Housing Contract,Cbord CSGold,MyCard sends housing door access information to Cbord CSGold,Realtime,HTTP
+Banner,Cbord CSGold,Banner sends meal and MUlaa funds to Cbord CSGold,Realtime (Oracle triggered),HTTP
+MyCard,MyMiami,"MyCard provides incoming students, families and students with information related to housing and meals to MyMiami",Realtime,HTTP
+LDAP,MyCard,MyCard uses LDAP to authenticate users,Realtime,LDAP
+LDAP,Cbord WebCardCenter,Cbord WebCardCenter uses LDAP to authenticate users,Realtime,LDAP
+Cbord CSGold,Cbord WebCardCenter,Cbord CSGold provides information on card usage to Cbord WebCardCenter,Realtime,Oracle
+Cbord WebCardCenter,Cbord CSGold,Cbord WebCardCenter allows students to upload photos of ID card which are sent to Cbord CSGold,Realtime,Oracle
+Cbord CSGold,"Pay-for-print, vending, laundry, valuePorts, Micros dining, WinPrism bookstore",Cbord CSGold maintains account transaction information for various systems,Realtiime,Various
+Cbord CSGold,Door controllers,Cbord CSGold maintains access control for electronic doors,Realtime,Various
+Cbord CSGold,Banner,Cbord CSGold provides ID card number and photos to Banner,Batch,Oracle
+AccountGen,Cbord CSGold,AccountGen feeds Cbord CSGold with student/staff information for ID card production,Realtime,HTTP
+MyCard,MUBucks,MyCard provides ID card information and signups to MUBucks offcampus vendor,Realtime,HTTP
+MyCard,PFD TMA workorder system,MyCard posts requests to repairs to residence halls to PFD's TMA workorder system,Realtime,HTTP
+MyCard,Miami Mobile App,MyCard provides dining location and menu item information to the Miami Mobile App,Realtime,HTTP/XML

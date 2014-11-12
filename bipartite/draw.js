@@ -7,7 +7,7 @@ data = get_data(file, function(data) {
     // in data.js
     data1 = create_bipartite_data(data, 'Category', 'Service Provider');
     //data2 = create_bipartite_data(data, 'Category', 'Hosting');
-    
+
     // An array of the bipartites graphs to create
     var bipartite_info = [ 
 	{
